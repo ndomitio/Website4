@@ -1,0 +1,147 @@
+﻿.projectcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items:flex-end;
+            
+}
+.project {
+    
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: #C0C0C0;
+    
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.projectoverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    transition: .5s ease;
+    
+    /*background-color: #c18553;*/
+}
+
+.project:hover .projectoverlay {
+    
+    background-image: url('images/print screen 4.png');
+    background-size:cover;
+    opacity: 0.9;
+}
+
+.projecttext {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+.project2 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: #C0C0C0;
+    opacity: 1.0;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.project2overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    transition: .5s ease;
+    /*background-color: #c18553;*/
+}
+
+.project2:hover .project2overlay {
+     background-size: cover;
+    background-image: url('images/print screen 6.png');
+    opacity: 0.9;
+}
+
+.project2text {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+
+.project3 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: #C0C0C0;
+    opacity: 1.0;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.project3overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    transition: .5s ease;
+    /*background-color: #c18553;*/
+}
+
+.project3:hover .project3overlay {
+    background-size: cover;
+    background-image: url('images/print screen 5.png');
+    opacity: 0.9;
+}
+
+.project3text {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
